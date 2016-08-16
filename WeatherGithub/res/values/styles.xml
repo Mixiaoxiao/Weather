@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/window_frame</item>
+        <item name="android:divider">@color/w_divider</item>
+        <item name="android:dividerHeight">@dimen/w_divider_size</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/selectable_item_backgound</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_backgound</item>
+    </style>
+
+</resources>

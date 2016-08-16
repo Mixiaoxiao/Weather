@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mixiaoxiao.weather.MainActivity" >
+
+    <com.mixiaoxiao.dynamicweather.DynamicWeatherView
+        android:id="@+id/main_dynamicweatherview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mixiaoxiao.mxxedgeeffect.widget.MxxViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.mixiaoxiao.mxxedgeeffect.widget.MxxPagerTitleStrip
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mxxPagerTitleStrip1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/w_titlebar_size"
+            android:layout_gravity="top"
+            android:gravity="center_vertical"
+            android:textSize="18dp"
+            app:pts_background="#55ffffff"
+            app:pts_gravity="center"
+            app:pts_margin="6dp"
+            app:pts_radius="2dp"
+            app:pts_selected_background="@color/w_text_primary" >
+        </com.mixiaoxiao.mxxedgeeffect.widget.MxxPagerTitleStrip>
+    </com.mixiaoxiao.mxxedgeeffect.widget.MxxViewPager>
+
+</merge>

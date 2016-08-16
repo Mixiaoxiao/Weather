@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@drawable/window_frame</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

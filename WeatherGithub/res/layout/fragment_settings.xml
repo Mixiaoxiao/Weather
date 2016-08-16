@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.mixiaoxiao.weather.github"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:divider="@drawable/divider_linearlayout"
+        android:orientation="vertical"
+        android:showDividers="middle|end" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_divider_size"
+                android:background="@color/w_divider" />
+
+            <TextView
+                android:id="@+id/settings_gps_location"
+                style="@style/cell_single_item_text"
+                android:text="正在获取当前位置..."
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/settings_manage_area"
+            style="@style/cell_single_item_text"
+            android:text="位置管理[Sample]" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <com.mixiaoxiao.support.widget.SmoothSwitch
+            android:id="@+id/settings_switch_notification"
+            style="@style/MxxSettingsCellSmoothSwitch"
+            android:checked="true"
+            android:text="通知栏天气[Sample]" />
+
+        <com.mixiaoxiao.support.widget.LabelSpinner
+            android:id="@+id/settings_spinner_smallicon"
+            style="@style/cell_layout"
+            app:entries="@array/settings_array_notification_smallicon"
+            app:titleText="通知栏状态图标[Sample]" >
+        </com.mixiaoxiao.support.widget.LabelSpinner>
+
+        <com.mixiaoxiao.support.widget.LabelSpinner
+            android:id="@+id/settings_spinner_textcolor"
+            style="@style/cell_layout"
+            app:entries="@array/settings_array_notification_textcolor"
+            app:titleText="通知栏文字颜色[Sample]" >
+        </com.mixiaoxiao.support.widget.LabelSpinner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/settings_appwidget"
+            style="@style/cell_single_item_text"
+            android:text="桌面小工具[Sample]" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/settings_about"
+            style="@style/cell_single_item_text"
+            android:text="关于[Sample]" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+        
+        <TextView
+            style="@style/cell_single_item_text"
+            android:text="点击天气界面任意位置可选动态天气类型" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/settings_github"
+                style="@style/cell_single_item_text"
+                android:text="Github" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:text="https://github.com/Mixiaoxiao/Weather"
+                android:textColor="@color/mxx_text_secondary"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

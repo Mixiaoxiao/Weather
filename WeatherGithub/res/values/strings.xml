@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">轻天气</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="default_area">--</string>
+    <string name="default_time">00:00</string>
+    <string name="default_date">default_date</string>
+    <string name="default_temp">--°</string>
+    <string name="default_weather">--</string>
+
+    
+    <!-- format strings for clocks -->
+    <string name="clock_24_hours_format" translatable="false">kk&#58;mm</string>
+    <string name="main_widget_12_hours_format" translatable="false">h&#58;mm</string>
+    
+    <string-array name="settings_array_notification_smallicon">
+        <item>天气状况</item>
+        <item>温度</item>
+    </string-array>
+    <string-array name="settings_array_notification_textcolor">
+        <item>系统默认</item>
+        <item>白色</item>
+        <item>黑色</item>
+    </string-array>
+    
+    <!-- <TextClock
+            android:layout_toRightOf="@id/notification_temprature"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/the_clock"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="@string/main_widget_12_hours_format"
+            android:format24Hour="@string/clock_24_hours_format"
+            android:singleLine="true"
+            android:textColor="@color/w_text_primary"
+            android:textSize="18dp" /> -->
+</resources>
