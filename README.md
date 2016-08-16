@@ -12,7 +12,7 @@ Screenshot
 GIF (size:28M)
 -----
 
-![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Weather.GIF)  
+![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Weather.gif)  
 
 
 Sample APK
