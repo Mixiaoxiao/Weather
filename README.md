@@ -7,7 +7,7 @@ A beautiful weather app: DynamicBackground (clear, rainy, foggy, etc), AqiView, 
 
 Screenshot
 -----
-![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Screenshot_2015.11.jpg)  
+![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Screenshot1.jpg)  
 
 GIF (size:28M)
 -----
