@@ -7,12 +7,13 @@ A beautiful weather app: DynamicBackground (clear, rainy, foggy, etc), AqiView, 
 
 Screenshot
 -----
+
 ![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Screenshot1.jpg)  
 
 GIF (size:28M)
 -----
 
-![Weather](https://raw.github.com/Mixiaoxiao/Weather/master/Weather.gif)  
+[Weather.gif](https://raw.github.com/Mixiaoxiao/Weather/master/Weather.gif)  
 
 
 Sample APK
