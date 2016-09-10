@@ -27,7 +27,7 @@ Features 特性
 
 * Dynamic Weather Background | 动态天气背景：多达10*2种天气效果（区分白天和夜间），60FPS的SurfaceView，切换时平滑渐变
 * Custom Weather Views | 天气相关自定义View：一周天气曲线图、24H曲线图、空气质量/风速/日出日落图等
-* Custom ViewPager/PagerTitleStrip/EdgeEffect | 自定义的ViewPager/PagerTitleStrip/EdgeEffect：改写support中ViewPager，配套阻尼弹性越界效果(EdgeEffect)和标题指示器(PagerTitleStrip)，SHUWOZHIYAN，那些个靠重写TouchEvent实现的弹性效果都是[知乎友善度]
+* Custom ViewPager/PagerTitleStrip/EdgeEffect | 自定义的ViewPager/PagerTitleStrip/EdgeEffect：改写support中ViewPager，配套阻尼弹性越界效果(EdgeEffect)和标题指示器(PagerTitleStrip)
 * Sunny PullRefreshLayout | 为刷新天气而生的下拉刷新：based on baoyongzhang/android-PullRefreshLayout(基于support的SwipeRefreshLayout封装了下拉状态)，自己写了个SunDrawable即下拉状态指示器
 * LabelSpinner | 多选项的设置菜单：说实话PopupMenu太不好用了
 
@@ -47,7 +47,6 @@ Developed By
 ------------
 
 * Mixiaoxiao - <xiaochyechye@gmail.com> or <mixiaoxiaogogo@163.com>
-* Coding blogs is shit. I just code my codes.
 
 
 License
